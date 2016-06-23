@@ -10,7 +10,7 @@ function initpath(varargin)
 
     [pathstr] = fileparts(mfilename('fullpath'));
 	nvar = length(varargin);
-	RV_folder = fullfile(pathstr,'RV model-based kernel');
+	RV_folder = pathstr; %fullfile(pathstr,'RV model-based kernel');
     if nvar < 1
         nvar = 1;
         varargin{1} = 'default';
@@ -23,7 +23,7 @@ function initpath(varargin)
                 disp('  * init default path *');
 				addpath(fullfile(RV_folder,'RV_kernel'));
 				addpath(fullfile(RV_folder,'compute_Kernel_matrix'));
-				addpath(fullfile(RV_folder,'datasets'));
+				addpath(fullfile(RV_folder,'prepared_datasets'));
 				addpath(fullfile(RV_folder,'libsvm'));
 				addpath(genpath(fullfile(pathstr,'lsm')));
 			otherwise
