@@ -27,7 +27,7 @@ We build our project on the basis of codes provided by Fengzhen Tang (fxt126@cs.
 
 This repository includes a precompiled version of `csim 1.1.1` and `libsvm 3.2`, including mexw64, mexa64m, mexmaci64 for usage under Windows, Linux, Mac.
 
-The csim can be found [here](http://www.lsm.tugraz.at/). N.B. the original version from the website was altered to meet the updated operational environment. The source code is also contained.
+The csim can be found [here](http://www.lsm.tugraz.at/). N.B. the original version from the website was altered to meet the updated operational environment.
 
 __libsvm 3.2__ or higher version is required. __libsvm__ is a library for support vector machines which was obtained from [here](http://www.csie.ntu.edu.tw/~cjlin/libsvm/).
 
