@@ -1,7 +1,7 @@
 RV model-based kernel with LSM
 ==============================
 
-This repository contains the source code for classification based on the liquid state machine (LSM).
+This repository contains the source code for classification based on the liquid state machine (LSM). The paper is published in ECML-16. You can find electronic version of paper in [here](https://link.springer.com/chapter/10.1007/978-3-319-46128-1_20).
 
 We build our project on the basis of codes provided by Fengzhen Tang (fxt126@cs.bham.ac.uk). This repository integrates work from other literatures. All the contact information is retained in the preamble. *ALL* necessary codes can be obtained  *freely* from the Internet.
 
@@ -39,3 +39,9 @@ This repository is mainly contributed by Junyuan Hong(jyhong836@gmail.com), in c
 ### License
 
 This repository is distributed under the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html).
+
+### Citation
+
+Please cite our paper as follow, if you use our codes.
+
+Li, Y., Hong, J., & Chen, H. (2016, September). Sequential Data Classification in the Space of Liquid State Machines. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases (pp. 313-328). Springer International Publishing.
